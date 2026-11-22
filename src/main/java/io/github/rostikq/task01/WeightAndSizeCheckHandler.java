@@ -2,7 +2,7 @@ package io.github.rostikq.task01;
 
 import io.github.rostikq.logger.EventLogger;
 
-class WeightAndSizeCheckHandler extends ShipmentCheckHandler {
+public class WeightAndSizeCheckHandler extends ShipmentCheckHandler {
     private final double maxWeightKg;
     private final int maxDimensionCm;
 

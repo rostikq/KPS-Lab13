@@ -2,7 +2,7 @@ package io.github.rostikq.task01;
 
 import io.github.rostikq.logger.EventLogger;
 
-class InternationalRequirementsHandler extends ShipmentCheckHandler {
+public class InternationalRequirementsHandler extends ShipmentCheckHandler {
     public InternationalRequirementsHandler() {
         super("InternationalCheck");
     }

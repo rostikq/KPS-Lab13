@@ -2,7 +2,7 @@ package io.github.rostikq.task01;
 
 import io.github.rostikq.logger.EventLogger;
 
-class LithiumBatteryCheckHandler extends ShipmentCheckHandler {
+public class LithiumBatteryCheckHandler extends ShipmentCheckHandler {
     public LithiumBatteryCheckHandler() {
         super("LithiumBatteryCheck");
     }
