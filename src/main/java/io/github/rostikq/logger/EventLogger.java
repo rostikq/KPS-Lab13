@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-class EventLogger {
+public class EventLogger {
     private static final DateTimeFormatter FMT = DateTimeFormatter.ofPattern("HH:mm:ss");
     private static final List<String> logs = new ArrayList<>();
 
