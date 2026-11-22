@@ -1,6 +1,6 @@
 package io.github.rostikq.task01;
 
-class Shipment {
+public class Shipment {
     private final String id;
     private final ShipmentType type;
     private final boolean waybillFilled;

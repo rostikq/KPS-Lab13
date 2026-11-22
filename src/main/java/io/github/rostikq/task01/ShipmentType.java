@@ -1,6 +1,6 @@
 package io.github.rostikq.task01;
 
-enum ShipmentType {
+public enum ShipmentType {
     DOMESTIC,
     INTERNATIONAL
 }

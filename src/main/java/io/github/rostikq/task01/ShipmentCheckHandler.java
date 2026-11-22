@@ -2,7 +2,7 @@ package io.github.rostikq.task01;
 
 import io.github.rostikq.logger.EventLogger;
 
-abstract class ShipmentCheckHandler {
+public abstract class ShipmentCheckHandler {
     private ShipmentCheckHandler next;
     protected final String handlerName;
 
